@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/malloc_free.dir/malloc_free.cpp.o  -o malloc_free 

@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/fangkuohao.dir/重载/fangkuohao.cpp.o  -o fangkuohao 

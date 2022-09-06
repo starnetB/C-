@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/yuankuohao.dir/重载/yuankuohao.cpp.o  -o yuankuohao 

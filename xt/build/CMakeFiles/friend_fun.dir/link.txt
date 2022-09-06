@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/friend_fun.dir/friend_fun.cpp.o  -o friend_fun 

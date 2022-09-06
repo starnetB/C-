@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/SqStack.dir/NK/cc/SqStack.cpp.o  -o SqStack 

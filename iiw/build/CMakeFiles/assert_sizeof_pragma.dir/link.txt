@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/assert_sizeof_pragma.dir/assert_sizeof_pragma.cpp.o  -o assert_sizeof_pragma 

@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/enmu.dir/enmu.cpp.o  -o enmu 

@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/386.dir/386.cpp.o  -o 386 

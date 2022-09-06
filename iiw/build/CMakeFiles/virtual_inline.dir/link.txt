@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/virtual_inline.dir/virtual_inline.cpp.o  -o virtual_inline 

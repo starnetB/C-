@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/CirSq.dir/NK/CirSq.cpp.o  -o CirSq 

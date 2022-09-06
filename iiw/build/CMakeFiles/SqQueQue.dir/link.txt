@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/SqQueQue.dir/NK/SqQueQue.cpp.o  -o SqQueQue 

@@ -1,0 +1,5 @@
+/home/ziye01/C++/xt/模板/build/CMakeFiles/rebuild_cache.dir
+/home/ziye01/C++/xt/模板/build/CMakeFiles/386.dir
+/home/ziye01/C++/xt/模板/build/CMakeFiles/edit_cache.dir
+/home/ziye01/C++/xt/模板/build/CMakeFiles/385.dir
+/home/ziye01/C++/xt/模板/build/CMakeFiles/384.dir

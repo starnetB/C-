@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/perfect.dir/reference/perfect.cpp.o  -o perfect 

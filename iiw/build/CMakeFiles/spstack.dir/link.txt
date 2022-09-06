@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/spstack.dir/NK/spstack.cpp.o  -o spstack 
