@@ -17,6 +17,7 @@ public:
     {
         wcout<<L"Creating Controller"<<Num<<std::endl;
     }
+    
     ~Controller()
     {
         wcout<<L"Destroying Controller"<<Num<<std::endl;

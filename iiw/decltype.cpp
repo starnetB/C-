@@ -35,7 +35,7 @@ int main(void)
     double tempA=3.0;
     const double ctempA=5.0;
     const double ctempB=6.0;
-    const double *const cptrTempA=&ctempA;  //这里前面一个const是指常量指针，指针所表示的对象是常量，
+    const double *const cptrTempA=&ctempA;  //这里前面一个const是指针常量，指针所表示的对象是常量，
     //后面一个const是指 指针本身常量，表示指针本身的地址不能被修改
 
     /*1.dclTempA推断为const double（保留顶层const，此处与auto不同）*/
