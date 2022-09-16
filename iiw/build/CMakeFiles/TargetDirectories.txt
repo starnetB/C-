@@ -1,12 +1,15 @@
-/home/ziye01/C++/iiw/build/CMakeFiles/virtual_inline.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/rebuild_cache.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/edit_cache.dir
+/home/ziye01/C++/iiw/build/CMakeFiles/virtual_inline.dir
+/home/ziye01/C++/iiw/build/CMakeFiles/abstractfatory.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/enmu.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/assert_sizeof_pragma.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/move.dir
+/home/ziye01/C++/iiw/build/CMakeFiles/zeban.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/CirSq.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/perfect.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/SqQueQue.dir
+/home/ziye01/C++/iiw/build/CMakeFiles/singleton.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/shape_virdeco.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/l_r_reference.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/allsort.dir

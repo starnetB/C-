@@ -46,12 +46,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/virtual_inline.dir/DependInfo.cmake"
+  "CMakeFiles/abstractfatory.dir/DependInfo.cmake"
   "CMakeFiles/enmu.dir/DependInfo.cmake"
   "CMakeFiles/assert_sizeof_pragma.dir/DependInfo.cmake"
   "CMakeFiles/move.dir/DependInfo.cmake"
+  "CMakeFiles/zeban.dir/DependInfo.cmake"
   "CMakeFiles/CirSq.dir/DependInfo.cmake"
   "CMakeFiles/perfect.dir/DependInfo.cmake"
   "CMakeFiles/SqQueQue.dir/DependInfo.cmake"
+  "CMakeFiles/singleton.dir/DependInfo.cmake"
   "CMakeFiles/shape_virdeco.dir/DependInfo.cmake"
   "CMakeFiles/l_r_reference.dir/DependInfo.cmake"
   "CMakeFiles/allsort.dir/DependInfo.cmake"

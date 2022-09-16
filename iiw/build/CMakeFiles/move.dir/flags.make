@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ziye01/C++/iiw/include 
+CXX_INCLUDES = -I/home/ziye01/C++/iiw/include -I/home/ziye01/C++/iiw/DesignerMode/AbstractFactoryPattern 
 

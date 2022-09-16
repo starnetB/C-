@@ -32,8 +32,10 @@ add_executable(spstack NK/spstack.cpp)
 add_executable(SqQueQue NK/SqQueQue.cpp)
 add_executable(CirSq NK/CirSq.cpp)
 add_executable(SqStack NK/cc/SqStack.cpp)
-
-
-
+add_executable(zeban 递归/zeban.cpp)
+add_executable(singleton DesignerMode/Singleton/singleton.cpp)
+include_directories( DesignerMode/AbstractFactoryPattern)
+add_executable(abstractfatory DesignerMode/AbstractFactoryPattern/abstract.cpp
+                              DesignerMode/AbstractFactoryPattern/Factory.cpp)
 
 

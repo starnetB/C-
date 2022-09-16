@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../DesignerMode/AbstractFactoryPattern/Factory.h
+product.h
+-
+
+../DesignerMode/AbstractFactoryPattern/concrete_factory.h
+Factory.h
+../DesignerMode/AbstractFactoryPattern/Factory.h
+concrete_procuct.h
+../DesignerMode/AbstractFactoryPattern/concrete_procuct.h
+
+../DesignerMode/AbstractFactoryPattern/concrete_procuct.h
+product.h
+-
+
+../DesignerMode/AbstractFactoryPattern/product.h
+string
+-
+
+/home/ziye01/C++/iiw/DesignerMode/AbstractFactoryPattern/abstract.cpp
+Factory.h
+-
+concrete_factory.h
+-
+product.h
+-
+concrete_procuct.h
+-
+iostream
+-
+

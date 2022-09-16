@@ -124,6 +124,19 @@ virtual_inline/fast:
 .PHONY : virtual_inline/fast
 
 #=============================================================================
+# Target rules for targets named abstractfatory
+
+# Build rule for target.
+abstractfatory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 abstractfatory
+.PHONY : abstractfatory
+
+# fast build rule for target.
+abstractfatory/fast:
+	$(MAKE) -f CMakeFiles/abstractfatory.dir/build.make CMakeFiles/abstractfatory.dir/build
+.PHONY : abstractfatory/fast
+
+#=============================================================================
 # Target rules for targets named enmu
 
 # Build rule for target.
@@ -163,6 +176,19 @@ move/fast:
 .PHONY : move/fast
 
 #=============================================================================
+# Target rules for targets named zeban
+
+# Build rule for target.
+zeban: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zeban
+.PHONY : zeban
+
+# fast build rule for target.
+zeban/fast:
+	$(MAKE) -f CMakeFiles/zeban.dir/build.make CMakeFiles/zeban.dir/build
+.PHONY : zeban/fast
+
+#=============================================================================
 # Target rules for targets named CirSq
 
 # Build rule for target.
@@ -200,6 +226,19 @@ SqQueQue: cmake_check_build_system
 SqQueQue/fast:
 	$(MAKE) -f CMakeFiles/SqQueQue.dir/build.make CMakeFiles/SqQueQue.dir/build
 .PHONY : SqQueQue/fast
+
+#=============================================================================
+# Target rules for targets named singleton
+
+# Build rule for target.
+singleton: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 singleton
+.PHONY : singleton
+
+# fast build rule for target.
+singleton/fast:
+	$(MAKE) -f CMakeFiles/singleton.dir/build.make CMakeFiles/singleton.dir/build
+.PHONY : singleton/fast
 
 #=============================================================================
 # Target rules for targets named shape_virdeco
@@ -265,6 +304,87 @@ spstack: cmake_check_build_system
 spstack/fast:
 	$(MAKE) -f CMakeFiles/spstack.dir/build.make CMakeFiles/spstack.dir/build
 .PHONY : spstack/fast
+
+DesignerMode/AbstractFactoryPattern/Factory.o: DesignerMode/AbstractFactoryPattern/Factory.cpp.o
+
+.PHONY : DesignerMode/AbstractFactoryPattern/Factory.o
+
+# target to build an object file
+DesignerMode/AbstractFactoryPattern/Factory.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfatory.dir/build.make CMakeFiles/abstractfatory.dir/DesignerMode/AbstractFactoryPattern/Factory.cpp.o
+.PHONY : DesignerMode/AbstractFactoryPattern/Factory.cpp.o
+
+DesignerMode/AbstractFactoryPattern/Factory.i: DesignerMode/AbstractFactoryPattern/Factory.cpp.i
+
+.PHONY : DesignerMode/AbstractFactoryPattern/Factory.i
+
+# target to preprocess a source file
+DesignerMode/AbstractFactoryPattern/Factory.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfatory.dir/build.make CMakeFiles/abstractfatory.dir/DesignerMode/AbstractFactoryPattern/Factory.cpp.i
+.PHONY : DesignerMode/AbstractFactoryPattern/Factory.cpp.i
+
+DesignerMode/AbstractFactoryPattern/Factory.s: DesignerMode/AbstractFactoryPattern/Factory.cpp.s
+
+.PHONY : DesignerMode/AbstractFactoryPattern/Factory.s
+
+# target to generate assembly for a file
+DesignerMode/AbstractFactoryPattern/Factory.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfatory.dir/build.make CMakeFiles/abstractfatory.dir/DesignerMode/AbstractFactoryPattern/Factory.cpp.s
+.PHONY : DesignerMode/AbstractFactoryPattern/Factory.cpp.s
+
+DesignerMode/AbstractFactoryPattern/abstract.o: DesignerMode/AbstractFactoryPattern/abstract.cpp.o
+
+.PHONY : DesignerMode/AbstractFactoryPattern/abstract.o
+
+# target to build an object file
+DesignerMode/AbstractFactoryPattern/abstract.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfatory.dir/build.make CMakeFiles/abstractfatory.dir/DesignerMode/AbstractFactoryPattern/abstract.cpp.o
+.PHONY : DesignerMode/AbstractFactoryPattern/abstract.cpp.o
+
+DesignerMode/AbstractFactoryPattern/abstract.i: DesignerMode/AbstractFactoryPattern/abstract.cpp.i
+
+.PHONY : DesignerMode/AbstractFactoryPattern/abstract.i
+
+# target to preprocess a source file
+DesignerMode/AbstractFactoryPattern/abstract.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfatory.dir/build.make CMakeFiles/abstractfatory.dir/DesignerMode/AbstractFactoryPattern/abstract.cpp.i
+.PHONY : DesignerMode/AbstractFactoryPattern/abstract.cpp.i
+
+DesignerMode/AbstractFactoryPattern/abstract.s: DesignerMode/AbstractFactoryPattern/abstract.cpp.s
+
+.PHONY : DesignerMode/AbstractFactoryPattern/abstract.s
+
+# target to generate assembly for a file
+DesignerMode/AbstractFactoryPattern/abstract.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfatory.dir/build.make CMakeFiles/abstractfatory.dir/DesignerMode/AbstractFactoryPattern/abstract.cpp.s
+.PHONY : DesignerMode/AbstractFactoryPattern/abstract.cpp.s
+
+DesignerMode/Singleton/singleton.o: DesignerMode/Singleton/singleton.cpp.o
+
+.PHONY : DesignerMode/Singleton/singleton.o
+
+# target to build an object file
+DesignerMode/Singleton/singleton.cpp.o:
+	$(MAKE) -f CMakeFiles/singleton.dir/build.make CMakeFiles/singleton.dir/DesignerMode/Singleton/singleton.cpp.o
+.PHONY : DesignerMode/Singleton/singleton.cpp.o
+
+DesignerMode/Singleton/singleton.i: DesignerMode/Singleton/singleton.cpp.i
+
+.PHONY : DesignerMode/Singleton/singleton.i
+
+# target to preprocess a source file
+DesignerMode/Singleton/singleton.cpp.i:
+	$(MAKE) -f CMakeFiles/singleton.dir/build.make CMakeFiles/singleton.dir/DesignerMode/Singleton/singleton.cpp.i
+.PHONY : DesignerMode/Singleton/singleton.cpp.i
+
+DesignerMode/Singleton/singleton.s: DesignerMode/Singleton/singleton.cpp.s
+
+.PHONY : DesignerMode/Singleton/singleton.s
+
+# target to generate assembly for a file
+DesignerMode/Singleton/singleton.cpp.s:
+	$(MAKE) -f CMakeFiles/singleton.dir/build.make CMakeFiles/singleton.dir/DesignerMode/Singleton/singleton.cpp.s
+.PHONY : DesignerMode/Singleton/singleton.cpp.s
 
 NK/CirSq.o: NK/CirSq.cpp.o
 
@@ -590,26 +710,65 @@ virtual_inline.cpp.s:
 	$(MAKE) -f CMakeFiles/virtual_inline.dir/build.make CMakeFiles/virtual_inline.dir/virtual_inline.cpp.s
 .PHONY : virtual_inline.cpp.s
 
+递归/zeban.o: 递归/zeban.cpp.o
+
+.PHONY : 递归/zeban.o
+
+# target to build an object file
+递归/zeban.cpp.o:
+	$(MAKE) -f CMakeFiles/zeban.dir/build.make CMakeFiles/zeban.dir/递归/zeban.cpp.o
+.PHONY : 递归/zeban.cpp.o
+
+递归/zeban.i: 递归/zeban.cpp.i
+
+.PHONY : 递归/zeban.i
+
+# target to preprocess a source file
+递归/zeban.cpp.i:
+	$(MAKE) -f CMakeFiles/zeban.dir/build.make CMakeFiles/zeban.dir/递归/zeban.cpp.i
+.PHONY : 递归/zeban.cpp.i
+
+递归/zeban.s: 递归/zeban.cpp.s
+
+.PHONY : 递归/zeban.s
+
+# target to generate assembly for a file
+递归/zeban.cpp.s:
+	$(MAKE) -f CMakeFiles/zeban.dir/build.make CMakeFiles/zeban.dir/递归/zeban.cpp.s
+.PHONY : 递归/zeban.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... virtual_inline"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... virtual_inline"
+	@echo "... abstractfatory"
 	@echo "... enmu"
 	@echo "... assert_sizeof_pragma"
 	@echo "... move"
+	@echo "... zeban"
 	@echo "... CirSq"
 	@echo "... perfect"
 	@echo "... SqQueQue"
+	@echo "... singleton"
 	@echo "... shape_virdeco"
 	@echo "... l_r_reference"
 	@echo "... allsort"
 	@echo "... SqStack"
 	@echo "... spstack"
+	@echo "... DesignerMode/AbstractFactoryPattern/Factory.o"
+	@echo "... DesignerMode/AbstractFactoryPattern/Factory.i"
+	@echo "... DesignerMode/AbstractFactoryPattern/Factory.s"
+	@echo "... DesignerMode/AbstractFactoryPattern/abstract.o"
+	@echo "... DesignerMode/AbstractFactoryPattern/abstract.i"
+	@echo "... DesignerMode/AbstractFactoryPattern/abstract.s"
+	@echo "... DesignerMode/Singleton/singleton.o"
+	@echo "... DesignerMode/Singleton/singleton.i"
+	@echo "... DesignerMode/Singleton/singleton.s"
 	@echo "... NK/CirSq.o"
 	@echo "... NK/CirSq.i"
 	@echo "... NK/CirSq.s"
@@ -646,6 +805,9 @@ help:
 	@echo "... virtual_inline.o"
 	@echo "... virtual_inline.i"
 	@echo "... virtual_inline.s"
+	@echo "... 递归/zeban.o"
+	@echo "... 递归/zeban.i"
+	@echo "... 递归/zeban.s"
 .PHONY : help
 
 
