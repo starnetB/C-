@@ -1,10 +1,16 @@
 /home/ziye01/C++/iiw/build/CMakeFiles/rebuild_cache.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/edit_cache.dir
+/home/ziye01/C++/iiw/build/CMakeFiles/train3.dir
+/home/ziye01/C++/iiw/build/CMakeFiles/train1.dir
+/home/ziye01/C++/iiw/build/CMakeFiles/train0.dir
+/home/ziye01/C++/iiw/build/CMakeFiles/observer.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/virtual_inline.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/abstractfatory.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/enmu.dir
+/home/ziye01/C++/iiw/build/CMakeFiles/train4.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/assert_sizeof_pragma.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/move.dir
+/home/ziye01/C++/iiw/build/CMakeFiles/train2.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/zeban.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/CirSq.dir
 /home/ziye01/C++/iiw/build/CMakeFiles/perfect.dir

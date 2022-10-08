@@ -111,6 +111,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named train3
+
+# Build rule for target.
+train3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 train3
+.PHONY : train3
+
+# fast build rule for target.
+train3/fast:
+	$(MAKE) -f CMakeFiles/train3.dir/build.make CMakeFiles/train3.dir/build
+.PHONY : train3/fast
+
+#=============================================================================
+# Target rules for targets named train1
+
+# Build rule for target.
+train1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 train1
+.PHONY : train1
+
+# fast build rule for target.
+train1/fast:
+	$(MAKE) -f CMakeFiles/train1.dir/build.make CMakeFiles/train1.dir/build
+.PHONY : train1/fast
+
+#=============================================================================
+# Target rules for targets named train0
+
+# Build rule for target.
+train0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 train0
+.PHONY : train0
+
+# fast build rule for target.
+train0/fast:
+	$(MAKE) -f CMakeFiles/train0.dir/build.make CMakeFiles/train0.dir/build
+.PHONY : train0/fast
+
+#=============================================================================
+# Target rules for targets named observer
+
+# Build rule for target.
+observer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 observer
+.PHONY : observer
+
+# fast build rule for target.
+observer/fast:
+	$(MAKE) -f CMakeFiles/observer.dir/build.make CMakeFiles/observer.dir/build
+.PHONY : observer/fast
+
+#=============================================================================
 # Target rules for targets named virtual_inline
 
 # Build rule for target.
@@ -150,6 +202,19 @@ enmu/fast:
 .PHONY : enmu/fast
 
 #=============================================================================
+# Target rules for targets named train4
+
+# Build rule for target.
+train4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 train4
+.PHONY : train4
+
+# fast build rule for target.
+train4/fast:
+	$(MAKE) -f CMakeFiles/train4.dir/build.make CMakeFiles/train4.dir/build
+.PHONY : train4/fast
+
+#=============================================================================
 # Target rules for targets named assert_sizeof_pragma
 
 # Build rule for target.
@@ -174,6 +239,19 @@ move: cmake_check_build_system
 move/fast:
 	$(MAKE) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/build
 .PHONY : move/fast
+
+#=============================================================================
+# Target rules for targets named train2
+
+# Build rule for target.
+train2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 train2
+.PHONY : train2
+
+# fast build rule for target.
+train2/fast:
+	$(MAKE) -f CMakeFiles/train2.dir/build.make CMakeFiles/train2.dir/build
+.PHONY : train2/fast
 
 #=============================================================================
 # Target rules for targets named zeban
@@ -358,6 +436,33 @@ DesignerMode/AbstractFactoryPattern/abstract.s: DesignerMode/AbstractFactoryPatt
 DesignerMode/AbstractFactoryPattern/abstract.cpp.s:
 	$(MAKE) -f CMakeFiles/abstractfatory.dir/build.make CMakeFiles/abstractfatory.dir/DesignerMode/AbstractFactoryPattern/abstract.cpp.s
 .PHONY : DesignerMode/AbstractFactoryPattern/abstract.cpp.s
+
+DesignerMode/ObserverPattern/observer.o: DesignerMode/ObserverPattern/observer.cpp.o
+
+.PHONY : DesignerMode/ObserverPattern/observer.o
+
+# target to build an object file
+DesignerMode/ObserverPattern/observer.cpp.o:
+	$(MAKE) -f CMakeFiles/observer.dir/build.make CMakeFiles/observer.dir/DesignerMode/ObserverPattern/observer.cpp.o
+.PHONY : DesignerMode/ObserverPattern/observer.cpp.o
+
+DesignerMode/ObserverPattern/observer.i: DesignerMode/ObserverPattern/observer.cpp.i
+
+.PHONY : DesignerMode/ObserverPattern/observer.i
+
+# target to preprocess a source file
+DesignerMode/ObserverPattern/observer.cpp.i:
+	$(MAKE) -f CMakeFiles/observer.dir/build.make CMakeFiles/observer.dir/DesignerMode/ObserverPattern/observer.cpp.i
+.PHONY : DesignerMode/ObserverPattern/observer.cpp.i
+
+DesignerMode/ObserverPattern/observer.s: DesignerMode/ObserverPattern/observer.cpp.s
+
+.PHONY : DesignerMode/ObserverPattern/observer.s
+
+# target to generate assembly for a file
+DesignerMode/ObserverPattern/observer.cpp.s:
+	$(MAKE) -f CMakeFiles/observer.dir/build.make CMakeFiles/observer.dir/DesignerMode/ObserverPattern/observer.cpp.s
+.PHONY : DesignerMode/ObserverPattern/observer.cpp.s
 
 DesignerMode/Singleton/singleton.o: DesignerMode/Singleton/singleton.cpp.o
 
@@ -683,6 +788,141 @@ shape_virdeco.cpp.s:
 	$(MAKE) -f CMakeFiles/shape_virdeco.dir/build.make CMakeFiles/shape_virdeco.dir/shape_virdeco.cpp.s
 .PHONY : shape_virdeco.cpp.s
 
+train/train0.o: train/train0.cpp.o
+
+.PHONY : train/train0.o
+
+# target to build an object file
+train/train0.cpp.o:
+	$(MAKE) -f CMakeFiles/train0.dir/build.make CMakeFiles/train0.dir/train/train0.cpp.o
+.PHONY : train/train0.cpp.o
+
+train/train0.i: train/train0.cpp.i
+
+.PHONY : train/train0.i
+
+# target to preprocess a source file
+train/train0.cpp.i:
+	$(MAKE) -f CMakeFiles/train0.dir/build.make CMakeFiles/train0.dir/train/train0.cpp.i
+.PHONY : train/train0.cpp.i
+
+train/train0.s: train/train0.cpp.s
+
+.PHONY : train/train0.s
+
+# target to generate assembly for a file
+train/train0.cpp.s:
+	$(MAKE) -f CMakeFiles/train0.dir/build.make CMakeFiles/train0.dir/train/train0.cpp.s
+.PHONY : train/train0.cpp.s
+
+train/train1.o: train/train1.cpp.o
+
+.PHONY : train/train1.o
+
+# target to build an object file
+train/train1.cpp.o:
+	$(MAKE) -f CMakeFiles/train1.dir/build.make CMakeFiles/train1.dir/train/train1.cpp.o
+.PHONY : train/train1.cpp.o
+
+train/train1.i: train/train1.cpp.i
+
+.PHONY : train/train1.i
+
+# target to preprocess a source file
+train/train1.cpp.i:
+	$(MAKE) -f CMakeFiles/train1.dir/build.make CMakeFiles/train1.dir/train/train1.cpp.i
+.PHONY : train/train1.cpp.i
+
+train/train1.s: train/train1.cpp.s
+
+.PHONY : train/train1.s
+
+# target to generate assembly for a file
+train/train1.cpp.s:
+	$(MAKE) -f CMakeFiles/train1.dir/build.make CMakeFiles/train1.dir/train/train1.cpp.s
+.PHONY : train/train1.cpp.s
+
+train/train2.o: train/train2.cpp.o
+
+.PHONY : train/train2.o
+
+# target to build an object file
+train/train2.cpp.o:
+	$(MAKE) -f CMakeFiles/train2.dir/build.make CMakeFiles/train2.dir/train/train2.cpp.o
+.PHONY : train/train2.cpp.o
+
+train/train2.i: train/train2.cpp.i
+
+.PHONY : train/train2.i
+
+# target to preprocess a source file
+train/train2.cpp.i:
+	$(MAKE) -f CMakeFiles/train2.dir/build.make CMakeFiles/train2.dir/train/train2.cpp.i
+.PHONY : train/train2.cpp.i
+
+train/train2.s: train/train2.cpp.s
+
+.PHONY : train/train2.s
+
+# target to generate assembly for a file
+train/train2.cpp.s:
+	$(MAKE) -f CMakeFiles/train2.dir/build.make CMakeFiles/train2.dir/train/train2.cpp.s
+.PHONY : train/train2.cpp.s
+
+train/train3.o: train/train3.cpp.o
+
+.PHONY : train/train3.o
+
+# target to build an object file
+train/train3.cpp.o:
+	$(MAKE) -f CMakeFiles/train3.dir/build.make CMakeFiles/train3.dir/train/train3.cpp.o
+.PHONY : train/train3.cpp.o
+
+train/train3.i: train/train3.cpp.i
+
+.PHONY : train/train3.i
+
+# target to preprocess a source file
+train/train3.cpp.i:
+	$(MAKE) -f CMakeFiles/train3.dir/build.make CMakeFiles/train3.dir/train/train3.cpp.i
+.PHONY : train/train3.cpp.i
+
+train/train3.s: train/train3.cpp.s
+
+.PHONY : train/train3.s
+
+# target to generate assembly for a file
+train/train3.cpp.s:
+	$(MAKE) -f CMakeFiles/train3.dir/build.make CMakeFiles/train3.dir/train/train3.cpp.s
+.PHONY : train/train3.cpp.s
+
+train/train4.o: train/train4.cpp.o
+
+.PHONY : train/train4.o
+
+# target to build an object file
+train/train4.cpp.o:
+	$(MAKE) -f CMakeFiles/train4.dir/build.make CMakeFiles/train4.dir/train/train4.cpp.o
+.PHONY : train/train4.cpp.o
+
+train/train4.i: train/train4.cpp.i
+
+.PHONY : train/train4.i
+
+# target to preprocess a source file
+train/train4.cpp.i:
+	$(MAKE) -f CMakeFiles/train4.dir/build.make CMakeFiles/train4.dir/train/train4.cpp.i
+.PHONY : train/train4.cpp.i
+
+train/train4.s: train/train4.cpp.s
+
+.PHONY : train/train4.s
+
+# target to generate assembly for a file
+train/train4.cpp.s:
+	$(MAKE) -f CMakeFiles/train4.dir/build.make CMakeFiles/train4.dir/train/train4.cpp.s
+.PHONY : train/train4.cpp.s
+
 virtual_inline.o: virtual_inline.cpp.o
 
 .PHONY : virtual_inline.o
@@ -745,11 +985,17 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... train3"
+	@echo "... train1"
+	@echo "... train0"
+	@echo "... observer"
 	@echo "... virtual_inline"
 	@echo "... abstractfatory"
 	@echo "... enmu"
+	@echo "... train4"
 	@echo "... assert_sizeof_pragma"
 	@echo "... move"
+	@echo "... train2"
 	@echo "... zeban"
 	@echo "... CirSq"
 	@echo "... perfect"
@@ -766,6 +1012,9 @@ help:
 	@echo "... DesignerMode/AbstractFactoryPattern/abstract.o"
 	@echo "... DesignerMode/AbstractFactoryPattern/abstract.i"
 	@echo "... DesignerMode/AbstractFactoryPattern/abstract.s"
+	@echo "... DesignerMode/ObserverPattern/observer.o"
+	@echo "... DesignerMode/ObserverPattern/observer.i"
+	@echo "... DesignerMode/ObserverPattern/observer.s"
 	@echo "... DesignerMode/Singleton/singleton.o"
 	@echo "... DesignerMode/Singleton/singleton.i"
 	@echo "... DesignerMode/Singleton/singleton.s"
@@ -802,6 +1051,21 @@ help:
 	@echo "... shape_virdeco.o"
 	@echo "... shape_virdeco.i"
 	@echo "... shape_virdeco.s"
+	@echo "... train/train0.o"
+	@echo "... train/train0.i"
+	@echo "... train/train0.s"
+	@echo "... train/train1.o"
+	@echo "... train/train1.i"
+	@echo "... train/train1.s"
+	@echo "... train/train2.o"
+	@echo "... train/train2.i"
+	@echo "... train/train2.s"
+	@echo "... train/train3.o"
+	@echo "... train/train3.i"
+	@echo "... train/train3.s"
+	@echo "... train/train4.o"
+	@echo "... train/train4.i"
+	@echo "... train/train4.s"
 	@echo "... virtual_inline.o"
 	@echo "... virtual_inline.i"
 	@echo "... virtual_inline.s"

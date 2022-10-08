@@ -40,6 +40,7 @@ public:
 
     void fun(int p){cout<<"Deriver3::fun"<<endl;}
 };
+
 int main(){
     Deriver2 d1(10);
     Deriver2 d2(10,0.0);

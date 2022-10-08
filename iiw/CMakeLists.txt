@@ -37,5 +37,12 @@ add_executable(singleton DesignerMode/Singleton/singleton.cpp)
 include_directories( DesignerMode/AbstractFactoryPattern)
 add_executable(abstractfatory DesignerMode/AbstractFactoryPattern/abstract.cpp
                               DesignerMode/AbstractFactoryPattern/Factory.cpp)
+add_executable(observer DesignerMode/ObserverPattern/observer.cpp)
+                              
+add_executable(train0 train/train0.cpp)                         
+add_executable(train1 train/train1.cpp)
+add_executable(train2 train/train2.cpp)
+add_executable(train3 train/train3.cpp)
+add_executable(train4 train/train4.cpp)
 
 

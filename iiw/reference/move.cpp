@@ -5,7 +5,7 @@
 class HasPtrMem{
 public:
     HasPtrMem():d(new int(3)),a(3){}   //普通构造函数
-    HasPtrMem(const HasPtrMem& h):d(new int(*h.d)){} //copy构造函数
+    HasPtrMem(const HasPtrMem& h):d(new int(*h.d)),a(h.a){} //copy构造函数
     HasPtrMem(HasPtrMem && h):d(h.d),a(h.a){
         std::cout<<"-------------"<<std::endl;
         *h.d+=1;
@@ -29,7 +29,7 @@ HasPtrMem getTemp(){
 
 int main()
 {
-    HasPtrMem a(std::move(getTemp()));
+    HasPtrMem a(std::move(getTemp())); //转换成右值，可以使用
 }
 
 

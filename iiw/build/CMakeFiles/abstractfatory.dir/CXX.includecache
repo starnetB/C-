@@ -24,6 +24,16 @@ product.h
 string
 -
 
+/home/ziye01/C++/iiw/DesignerMode/AbstractFactoryPattern/Factory.cpp
+Factory.h
+/home/ziye01/C++/iiw/DesignerMode/AbstractFactoryPattern/Factory.h
+concrete_factory.h
+/home/ziye01/C++/iiw/DesignerMode/AbstractFactoryPattern/concrete_factory.h
+
+/home/ziye01/C++/iiw/DesignerMode/AbstractFactoryPattern/Factory.h
+product.h
+-
+
 /home/ziye01/C++/iiw/DesignerMode/AbstractFactoryPattern/abstract.cpp
 Factory.h
 -
@@ -34,5 +44,15 @@ product.h
 concrete_procuct.h
 -
 iostream
+-
+
+/home/ziye01/C++/iiw/DesignerMode/AbstractFactoryPattern/concrete_factory.h
+Factory.h
+/home/ziye01/C++/iiw/DesignerMode/AbstractFactoryPattern/Factory.h
+concrete_procuct.h
+/home/ziye01/C++/iiw/DesignerMode/AbstractFactoryPattern/concrete_procuct.h
+
+/home/ziye01/C++/iiw/DesignerMode/AbstractFactoryPattern/concrete_procuct.h
+product.h
 -
 

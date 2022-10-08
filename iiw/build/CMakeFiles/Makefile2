@@ -53,11 +53,17 @@ CMAKE_BINARY_DIR = /home/ziye01/C++/iiw/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/train3.dir/all
+all: CMakeFiles/train1.dir/all
+all: CMakeFiles/train0.dir/all
+all: CMakeFiles/observer.dir/all
 all: CMakeFiles/virtual_inline.dir/all
 all: CMakeFiles/abstractfatory.dir/all
 all: CMakeFiles/enmu.dir/all
+all: CMakeFiles/train4.dir/all
 all: CMakeFiles/assert_sizeof_pragma.dir/all
 all: CMakeFiles/move.dir/all
+all: CMakeFiles/train2.dir/all
 all: CMakeFiles/zeban.dir/all
 all: CMakeFiles/CirSq.dir/all
 all: CMakeFiles/perfect.dir/all
@@ -77,11 +83,17 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/train3.dir/clean
+clean: CMakeFiles/train1.dir/clean
+clean: CMakeFiles/train0.dir/clean
+clean: CMakeFiles/observer.dir/clean
 clean: CMakeFiles/virtual_inline.dir/clean
 clean: CMakeFiles/abstractfatory.dir/clean
 clean: CMakeFiles/enmu.dir/clean
+clean: CMakeFiles/train4.dir/clean
 clean: CMakeFiles/assert_sizeof_pragma.dir/clean
 clean: CMakeFiles/move.dir/clean
+clean: CMakeFiles/train2.dir/clean
 clean: CMakeFiles/zeban.dir/clean
 clean: CMakeFiles/CirSq.dir/clean
 clean: CMakeFiles/perfect.dir/clean
@@ -96,13 +108,121 @@ clean: CMakeFiles/spstack.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/train3.dir
+
+# All Build rule for target.
+CMakeFiles/train3.dir/all:
+	$(MAKE) -f CMakeFiles/train3.dir/build.make CMakeFiles/train3.dir/depend
+	$(MAKE) -f CMakeFiles/train3.dir/build.make CMakeFiles/train3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=36,37 "Built target train3"
+.PHONY : CMakeFiles/train3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/train3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/train3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 0
+.PHONY : CMakeFiles/train3.dir/rule
+
+# Convenience name for target.
+train3: CMakeFiles/train3.dir/rule
+
+.PHONY : train3
+
+# clean rule for target.
+CMakeFiles/train3.dir/clean:
+	$(MAKE) -f CMakeFiles/train3.dir/build.make CMakeFiles/train3.dir/clean
+.PHONY : CMakeFiles/train3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/train1.dir
+
+# All Build rule for target.
+CMakeFiles/train1.dir/all:
+	$(MAKE) -f CMakeFiles/train1.dir/build.make CMakeFiles/train1.dir/depend
+	$(MAKE) -f CMakeFiles/train1.dir/build.make CMakeFiles/train1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=32,33 "Built target train1"
+.PHONY : CMakeFiles/train1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/train1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/train1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 0
+.PHONY : CMakeFiles/train1.dir/rule
+
+# Convenience name for target.
+train1: CMakeFiles/train1.dir/rule
+
+.PHONY : train1
+
+# clean rule for target.
+CMakeFiles/train1.dir/clean:
+	$(MAKE) -f CMakeFiles/train1.dir/build.make CMakeFiles/train1.dir/clean
+.PHONY : CMakeFiles/train1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/train0.dir
+
+# All Build rule for target.
+CMakeFiles/train0.dir/all:
+	$(MAKE) -f CMakeFiles/train0.dir/build.make CMakeFiles/train0.dir/depend
+	$(MAKE) -f CMakeFiles/train0.dir/build.make CMakeFiles/train0.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=30,31 "Built target train0"
+.PHONY : CMakeFiles/train0.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/train0.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/train0.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 0
+.PHONY : CMakeFiles/train0.dir/rule
+
+# Convenience name for target.
+train0: CMakeFiles/train0.dir/rule
+
+.PHONY : train0
+
+# clean rule for target.
+CMakeFiles/train0.dir/clean:
+	$(MAKE) -f CMakeFiles/train0.dir/build.make CMakeFiles/train0.dir/clean
+.PHONY : CMakeFiles/train0.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/observer.dir
+
+# All Build rule for target.
+CMakeFiles/observer.dir/all:
+	$(MAKE) -f CMakeFiles/observer.dir/build.make CMakeFiles/observer.dir/depend
+	$(MAKE) -f CMakeFiles/observer.dir/build.make CMakeFiles/observer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=20,21 "Built target observer"
+.PHONY : CMakeFiles/observer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/observer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/observer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 0
+.PHONY : CMakeFiles/observer.dir/rule
+
+# Convenience name for target.
+observer: CMakeFiles/observer.dir/rule
+
+.PHONY : observer
+
+# clean rule for target.
+CMakeFiles/observer.dir/clean:
+	$(MAKE) -f CMakeFiles/observer.dir/build.make CMakeFiles/observer.dir/clean
+.PHONY : CMakeFiles/observer.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/virtual_inline.dir
 
 # All Build rule for target.
 CMakeFiles/virtual_inline.dir/all:
 	$(MAKE) -f CMakeFiles/virtual_inline.dir/build.make CMakeFiles/virtual_inline.dir/depend
 	$(MAKE) -f CMakeFiles/virtual_inline.dir/build.make CMakeFiles/virtual_inline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=28,29 "Built target virtual_inline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=40,41 "Built target virtual_inline"
 .PHONY : CMakeFiles/virtual_inline.dir/all
 
 # Build rule for subdir invocation for target.
@@ -177,6 +297,33 @@ CMakeFiles/enmu.dir/clean:
 .PHONY : CMakeFiles/enmu.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/train4.dir
+
+# All Build rule for target.
+CMakeFiles/train4.dir/all:
+	$(MAKE) -f CMakeFiles/train4.dir/build.make CMakeFiles/train4.dir/depend
+	$(MAKE) -f CMakeFiles/train4.dir/build.make CMakeFiles/train4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=38,39 "Built target train4"
+.PHONY : CMakeFiles/train4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/train4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/train4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 0
+.PHONY : CMakeFiles/train4.dir/rule
+
+# Convenience name for target.
+train4: CMakeFiles/train4.dir/rule
+
+.PHONY : train4
+
+# clean rule for target.
+CMakeFiles/train4.dir/clean:
+	$(MAKE) -f CMakeFiles/train4.dir/build.make CMakeFiles/train4.dir/clean
+.PHONY : CMakeFiles/train4.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/assert_sizeof_pragma.dir
 
 # All Build rule for target.
@@ -231,13 +378,40 @@ CMakeFiles/move.dir/clean:
 .PHONY : CMakeFiles/move.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/train2.dir
+
+# All Build rule for target.
+CMakeFiles/train2.dir/all:
+	$(MAKE) -f CMakeFiles/train2.dir/build.make CMakeFiles/train2.dir/depend
+	$(MAKE) -f CMakeFiles/train2.dir/build.make CMakeFiles/train2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=34,35 "Built target train2"
+.PHONY : CMakeFiles/train2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/train2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/train2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziye01/C++/iiw/build/CMakeFiles 0
+.PHONY : CMakeFiles/train2.dir/rule
+
+# Convenience name for target.
+train2: CMakeFiles/train2.dir/rule
+
+.PHONY : train2
+
+# clean rule for target.
+CMakeFiles/train2.dir/clean:
+	$(MAKE) -f CMakeFiles/train2.dir/build.make CMakeFiles/train2.dir/clean
+.PHONY : CMakeFiles/train2.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/zeban.dir
 
 # All Build rule for target.
 CMakeFiles/zeban.dir/all:
 	$(MAKE) -f CMakeFiles/zeban.dir/build.make CMakeFiles/zeban.dir/depend
 	$(MAKE) -f CMakeFiles/zeban.dir/build.make CMakeFiles/zeban.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=30,31 "Built target zeban"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=42,43 "Built target zeban"
 .PHONY : CMakeFiles/zeban.dir/all
 
 # Build rule for subdir invocation for target.
@@ -291,7 +465,7 @@ CMakeFiles/CirSq.dir/clean:
 CMakeFiles/perfect.dir/all:
 	$(MAKE) -f CMakeFiles/perfect.dir/build.make CMakeFiles/perfect.dir/depend
 	$(MAKE) -f CMakeFiles/perfect.dir/build.make CMakeFiles/perfect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=20,21 "Built target perfect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=22,23 "Built target perfect"
 .PHONY : CMakeFiles/perfect.dir/all
 
 # Build rule for subdir invocation for target.
@@ -345,7 +519,7 @@ CMakeFiles/SqQueQue.dir/clean:
 CMakeFiles/singleton.dir/all:
 	$(MAKE) -f CMakeFiles/singleton.dir/build.make CMakeFiles/singleton.dir/depend
 	$(MAKE) -f CMakeFiles/singleton.dir/build.make CMakeFiles/singleton.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=24,25 "Built target singleton"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=26,27 "Built target singleton"
 .PHONY : CMakeFiles/singleton.dir/all
 
 # Build rule for subdir invocation for target.
@@ -372,7 +546,7 @@ CMakeFiles/singleton.dir/clean:
 CMakeFiles/shape_virdeco.dir/all:
 	$(MAKE) -f CMakeFiles/shape_virdeco.dir/build.make CMakeFiles/shape_virdeco.dir/depend
 	$(MAKE) -f CMakeFiles/shape_virdeco.dir/build.make CMakeFiles/shape_virdeco.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=22,23 "Built target shape_virdeco"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=24,25 "Built target shape_virdeco"
 .PHONY : CMakeFiles/shape_virdeco.dir/all
 
 # Build rule for subdir invocation for target.
@@ -480,7 +654,7 @@ CMakeFiles/SqStack.dir/clean:
 CMakeFiles/spstack.dir/all:
 	$(MAKE) -f CMakeFiles/spstack.dir/build.make CMakeFiles/spstack.dir/depend
 	$(MAKE) -f CMakeFiles/spstack.dir/build.make CMakeFiles/spstack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=26,27 "Built target spstack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziye01/C++/iiw/build/CMakeFiles --progress-num=28,29 "Built target spstack"
 .PHONY : CMakeFiles/spstack.dir/all
 
 # Build rule for subdir invocation for target.

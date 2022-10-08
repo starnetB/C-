@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/observer.dir/DesignerMode/ObserverPattern/observer.cpp.o  -o observer 

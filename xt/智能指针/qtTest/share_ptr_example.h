@@ -101,13 +101,14 @@ void testCase()
         std::unique_ptr<Object> obj = std::make_unique<ChildObject>(2);
         testObject(*obj);
 
+        //独占函数，必须使用std::move进行转移
         auto obj2=std::move(obj);//转移所有权到Ojb2
 
         testObject(*obj2);//调用父对象
 
     //    printf("obj:%s obj2:%s \n", formatBool(!!obj), formatBool(!!obj2));
         obj2.release();
-        obj2.release();//手动释放后， obj, obj2指向的对象已经被回收， 不会触发自动回收
+        obj.release();//手动释放后， obj, obj2指向的对象已经被回收， 不会触发自动回收
     //     printf("obj2.release， obj:%s obj2:%s \n", formatBool(!!obj), formatBool(!!obj2));
     }
 

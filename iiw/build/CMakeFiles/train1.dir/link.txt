@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/train1.dir/train/train1.cpp.o  -o train1 

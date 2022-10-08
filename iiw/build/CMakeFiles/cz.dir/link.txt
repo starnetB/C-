@@ -1,1 +1,0 @@
-/usr/bin/g++    -rdynamic CMakeFiles/cz.dir/cz.cpp.o  -o cz 
