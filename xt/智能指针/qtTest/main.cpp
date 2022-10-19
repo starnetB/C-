@@ -167,4 +167,20 @@ int main()
 
     std::cout<<"A: "<<a.use_count()<<"\n";
     std::cout<<"B: "<<b.use_count()<<"\n";
+
+    //shared_ptr可以使用一个new表达式返回的指针进行初始化。
+    shared_ptr<A> sp1(new A(2));  //A(2)交由sp1管理
+    //但是，不能将一个new表达式返回的指针赋值给shared_ptr。
+    //shared_ptr<int> p5 = new int(1024); // wrong, no implicit constructor
+    shared_ptr<A> sp2(sp1);   //A(2)同时交由sp2托管
+    shared_ptr<A> sp3;
+    sp3=sp2;    ///A(2)同时交由sp3托管
+    cout<<sp1->i<<","<<sp2->i<<","<<sp3->i<<endl;
+    A *p=sp3.get();  //get返回托管的指针，p指向A（2）
+    cout<<p->i<<endl;
+    sp1.reset(new A(3));  // reset导致托管新的指针, 此时sp1托管A(3),同时解除对原托管指针的托管
+    sp2.reset(new A(4));  //sp2托管A(4)
+    cout<<sp1->i<<","<<sp2->i<<","<<sp3->i<<endl;
+    sp3.reset(new A(5)); // // sp3托管A(5),A(2)无人托管，被delete
+
 }

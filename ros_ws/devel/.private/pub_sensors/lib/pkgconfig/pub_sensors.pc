@@ -1,0 +1,8 @@
+prefix=/home/ziye01/C++/ros_ws/devel/.private/pub_sensors
+
+Name: pub_sensors
+Description: Description of pub_sensors
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

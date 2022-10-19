@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target odometry_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odometry_pub.dir/src/odometry_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ziye01/C++/ros_ws/devel/.private/pub_odometry/lib/pub_odometry/odometry_pub[0m
+[100%] Built target odometry_pub

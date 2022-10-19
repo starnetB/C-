@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target pubsensors[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pubsensors.dir/src/pubsensors.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ziye01/C++/ros_ws/devel/.private/pub_sensors/lib/pub_sensors/pubsensors[0m
+[100%] Built target pubsensors

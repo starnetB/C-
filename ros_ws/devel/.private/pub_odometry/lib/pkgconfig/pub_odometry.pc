@@ -1,0 +1,8 @@
+prefix=/home/ziye01/C++/ros_ws/devel/.private/pub_odometry
+
+Name: pub_odometry
+Description: Description of pub_odometry
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

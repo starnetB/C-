@@ -1,0 +1,38 @@
+Symlinking /home/ziye01/C++/ros_ws/devel/./env.sh
+Symlinking /home/ziye01/C++/ros_ws/devel/./local_setup.bash
+Symlinking /home/ziye01/C++/ros_ws/devel/./setup.sh
+Symlinking /home/ziye01/C++/ros_ws/devel/./setup.bash
+Symlinking /home/ziye01/C++/ros_ws/devel/./_setup_util.py
+Symlinking /home/ziye01/C++/ros_ws/devel/./local_setup.zsh
+Symlinking /home/ziye01/C++/ros_ws/devel/./local_setup.sh
+Symlinking /home/ziye01/C++/ros_ws/devel/./setup.zsh
+Symlinking /home/ziye01/C++/ros_ws/devel/./cmake.lock
+Symlinking /home/ziye01/C++/ros_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/ziye01/C++/ros_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/ziye01/C++/ros_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/cmake.lock, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./cmake.lock)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/env.sh, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./env.sh)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/local_setup.bash, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./local_setup.bash)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/local_setup.sh, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./local_setup.sh)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/local_setup.zsh, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./local_setup.zsh)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/setup.bash, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./setup.bash)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/setup.sh, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./setup.sh)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/setup.zsh, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./setup.zsh)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/_setup_util.py, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./_setup_util.py)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./env.sh
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./local_setup.bash
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./local_setup.sh
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./local_setup.zsh
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./setup.bash
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./setup.sh
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./setup.zsh
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./_setup_util.py
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Already unlinked: {}
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Already unlinked: {}
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Already unlinked: {}

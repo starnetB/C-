@@ -1,0 +1,5 @@
+Linked: (/home/ziye01/C++/ros_ws/devel/.private/robot_setup_tf/share/robot_setup_tf/cmake/robot_setup_tfConfig-version.cmake, /home/ziye01/C++/ros_ws/devel/share/robot_setup_tf/cmake/robot_setup_tfConfig-version.cmake)
+Linked: (/home/ziye01/C++/ros_ws/devel/.private/robot_setup_tf/share/robot_setup_tf/cmake/robot_setup_tfConfig.cmake, /home/ziye01/C++/ros_ws/devel/share/robot_setup_tf/cmake/robot_setup_tfConfig.cmake)
+Linked: (/home/ziye01/C++/ros_ws/devel/.private/robot_setup_tf/lib/pkgconfig/robot_setup_tf.pc, /home/ziye01/C++/ros_ws/devel/lib/pkgconfig/robot_setup_tf.pc)
+Symlinking /home/ziye01/C++/ros_ws/devel/lib/robot_setup_tf/tf_listener
+Linked: (/home/ziye01/C++/ros_ws/devel/.private/robot_setup_tf/lib/robot_setup_tf/tf_broadcaster, /home/ziye01/C++/ros_ws/devel/lib/robot_setup_tf/tf_broadcaster)

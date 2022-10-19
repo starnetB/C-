@@ -150,6 +150,19 @@ train0/fast:
 .PHONY : train0/fast
 
 #=============================================================================
+# Target rules for targets named 11
+
+# Build rule for target.
+11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 11
+.PHONY : 11
+
+# fast build rule for target.
+11/fast:
+	$(MAKE) -f CMakeFiles/11.dir/build.make CMakeFiles/11.dir/build
+.PHONY : 11/fast
+
+#=============================================================================
 # Target rules for targets named observer
 
 # Build rule for target.
@@ -436,6 +449,33 @@ DesignerMode/AbstractFactoryPattern/abstract.s: DesignerMode/AbstractFactoryPatt
 DesignerMode/AbstractFactoryPattern/abstract.cpp.s:
 	$(MAKE) -f CMakeFiles/abstractfatory.dir/build.make CMakeFiles/abstractfatory.dir/DesignerMode/AbstractFactoryPattern/abstract.cpp.s
 .PHONY : DesignerMode/AbstractFactoryPattern/abstract.cpp.s
+
+DesignerMode/BridgePattern/11.o: DesignerMode/BridgePattern/11.cpp.o
+
+.PHONY : DesignerMode/BridgePattern/11.o
+
+# target to build an object file
+DesignerMode/BridgePattern/11.cpp.o:
+	$(MAKE) -f CMakeFiles/11.dir/build.make CMakeFiles/11.dir/DesignerMode/BridgePattern/11.cpp.o
+.PHONY : DesignerMode/BridgePattern/11.cpp.o
+
+DesignerMode/BridgePattern/11.i: DesignerMode/BridgePattern/11.cpp.i
+
+.PHONY : DesignerMode/BridgePattern/11.i
+
+# target to preprocess a source file
+DesignerMode/BridgePattern/11.cpp.i:
+	$(MAKE) -f CMakeFiles/11.dir/build.make CMakeFiles/11.dir/DesignerMode/BridgePattern/11.cpp.i
+.PHONY : DesignerMode/BridgePattern/11.cpp.i
+
+DesignerMode/BridgePattern/11.s: DesignerMode/BridgePattern/11.cpp.s
+
+.PHONY : DesignerMode/BridgePattern/11.s
+
+# target to generate assembly for a file
+DesignerMode/BridgePattern/11.cpp.s:
+	$(MAKE) -f CMakeFiles/11.dir/build.make CMakeFiles/11.dir/DesignerMode/BridgePattern/11.cpp.s
+.PHONY : DesignerMode/BridgePattern/11.cpp.s
 
 DesignerMode/ObserverPattern/observer.o: DesignerMode/ObserverPattern/observer.cpp.o
 
@@ -988,6 +1028,7 @@ help:
 	@echo "... train3"
 	@echo "... train1"
 	@echo "... train0"
+	@echo "... 11"
 	@echo "... observer"
 	@echo "... virtual_inline"
 	@echo "... abstractfatory"
@@ -1012,6 +1053,9 @@ help:
 	@echo "... DesignerMode/AbstractFactoryPattern/abstract.o"
 	@echo "... DesignerMode/AbstractFactoryPattern/abstract.i"
 	@echo "... DesignerMode/AbstractFactoryPattern/abstract.s"
+	@echo "... DesignerMode/BridgePattern/11.o"
+	@echo "... DesignerMode/BridgePattern/11.i"
+	@echo "... DesignerMode/BridgePattern/11.s"
 	@echo "... DesignerMode/ObserverPattern/observer.o"
 	@echo "... DesignerMode/ObserverPattern/observer.i"
 	@echo "... DesignerMode/ObserverPattern/observer.s"

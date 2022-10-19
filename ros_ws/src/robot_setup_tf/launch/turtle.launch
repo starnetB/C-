@@ -1,0 +1,15 @@
+<!--navigation stack 基本内容-->
+<!--加载地图，完成-->
+<launch>
+    <!--发布tf和监听tf-->
+    <node pkg="robot_setup_tf" name="tf_broadcaster" type="tf_broadcaster" /> 
+    <node pkg="robot_setup_tf" name="tf_listener" type="tf_listener" output="screen"/> 
+    <!--这一部分是传感器的相关内容-->
+    <node pkg="pub_sensors" name="pub_sensors_laser" type="pubsensors" output="screen"/>
+    <node pkg="pub_sensors" name="pub_sensors_pointcloud" type="pubPointCloud" output="screen" />
+    <!--odom框架，可以用于发布odom->base_link的tf和odom节点，包含速度等！-->
+    <node pkg="pub_odomerty" name="odomerty_pub" type="odometry_pub" /> 
+    <!--最后这一部分，加载接受哦cmd_vel,加载速度-,控制等-->
+    <!--cmd_vel-->
+</launch>
+<!--以上navigation stack的基本条件-->

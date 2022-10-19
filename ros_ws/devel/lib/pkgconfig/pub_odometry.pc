@@ -1,0 +1,1 @@
+/home/ziye01/C++/ros_ws/devel/.private/pub_odometry/lib/pkgconfig/pub_odometry.pc

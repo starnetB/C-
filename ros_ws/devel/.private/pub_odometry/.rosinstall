@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ziye01/C++/ros_ws/devel/.private/pub_odometry/setup.sh

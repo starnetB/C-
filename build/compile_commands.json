@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ziye01/C++/build",
+  "command": "/usr/bin/g++   -I/usr/include/eigen3  -g   -o CMakeFiles/test.dir/eigenMatrix.cpp.o -c /home/ziye01/C++/SLAM/eigenMatrix.cpp",
+  "file": "/home/ziye01/C++/SLAM/eigenMatrix.cpp"
+}
+]

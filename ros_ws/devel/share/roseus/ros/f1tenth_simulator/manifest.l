@@ -1,0 +1,1 @@
+/home/ziye01/C++/ros_ws/devel/.private/f1tenth_simulator/share/roseus/ros/f1tenth_simulator/manifest.l

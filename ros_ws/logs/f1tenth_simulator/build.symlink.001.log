@@ -1,0 +1,38 @@
+Symlinking /home/ziye01/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulatorConfig.cmake
+Symlinking /home/ziye01/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulator-msg-paths.cmake
+Symlinking /home/ziye01/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulator-msg-extras.cmake
+Symlinking /home/ziye01/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulatorConfig-version.cmake
+Symlinking /home/ziye01/C++/ros_ws/devel/share/roseus/ros/f1tenth_simulator/manifest.l
+Symlinking /home/ziye01/C++/ros_ws/devel/lib/f1tenth_simulator/behavior_controller
+Symlinking /home/ziye01/C++/ros_ws/devel/lib/f1tenth_simulator/mux
+Symlinking /home/ziye01/C++/ros_ws/devel/lib/f1tenth_simulator/simulator
+Symlinking /home/ziye01/C++/ros_ws/devel/lib/f1tenth_simulator/random_walk
+Symlinking /home/ziye01/C++/ros_ws/devel/lib/f1tenth_simulator/keyboard
+Symlinking /home/ziye01/C++/ros_ws/devel/lib/pkgconfig/f1tenth_simulator.pc
+Symlinking /home/ziye01/C++/ros_ws/devel/lib/python3/dist-packages/f1tenth_simulator/__init__.py
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/cmake.lock, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./cmake.lock)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/lib/f1tenth_simulator/behavior_controller, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/f1tenth_simulator/behavior_controller)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/lib/f1tenth_simulator/keyboard, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/f1tenth_simulator/keyboard)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/lib/f1tenth_simulator/mux, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/f1tenth_simulator/mux)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/lib/f1tenth_simulator/random_walk, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/f1tenth_simulator/random_walk)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/lib/f1tenth_simulator/simulator, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/f1tenth_simulator/simulator)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/lib/pkgconfig/f1tenth_simulator.pc, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/pkgconfig/f1tenth_simulator.pc)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/lib/python3/dist-packages/f1tenth_simulator/__init__.py, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/python3/dist-packages/f1tenth_simulator/__init__.py)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/share/f1tenth_simulator/cmake/f1tenth_simulator-msg-extras.cmake, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulator-msg-extras.cmake)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/share/f1tenth_simulator/cmake/f1tenth_simulator-msg-paths.cmake, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulator-msg-paths.cmake)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/share/f1tenth_simulator/cmake/f1tenth_simulatorConfig-version.cmake, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulatorConfig-version.cmake)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/share/f1tenth_simulator/cmake/f1tenth_simulatorConfig.cmake, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulatorConfig.cmake)
+Cleaning: (/media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/.private/f1tenth_simulator/share/roseus/ros/f1tenth_simulator/manifest.l, /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/roseus/ros/f1tenth_simulator/manifest.l)
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/./cmake.lock
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/f1tenth_simulator/behavior_controller
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/f1tenth_simulator/keyboard
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/f1tenth_simulator/mux
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/f1tenth_simulator/random_walk
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/f1tenth_simulator/simulator
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/pkgconfig/f1tenth_simulator.pc
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/lib/python3/dist-packages/f1tenth_simulator/__init__.py
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulator-msg-extras.cmake
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulator-msg-paths.cmake
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulatorConfig-version.cmake
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/f1tenth_simulator/cmake/f1tenth_simulatorConfig.cmake
+Unlinking: /media/ziye01/Seagate Portable Drive/rf_ex/C++/ros_ws/devel/share/roseus/ros/f1tenth_simulator/manifest.l

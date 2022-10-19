@@ -1,0 +1,4 @@
+Symlinking /home/ziye01/C++/ros_ws/devel/share/pub_odometry/cmake/pub_odometryConfig.cmake
+Symlinking /home/ziye01/C++/ros_ws/devel/share/pub_odometry/cmake/pub_odometryConfig-version.cmake
+Symlinking /home/ziye01/C++/ros_ws/devel/lib/pub_odometry/odometry_pub
+Symlinking /home/ziye01/C++/ros_ws/devel/lib/pkgconfig/pub_odometry.pc

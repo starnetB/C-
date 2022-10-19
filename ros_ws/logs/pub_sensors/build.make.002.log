@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target pubPointCloud[0m
+[ 75%] Built target pubsensors
+[ 75%] [32mBuilding CXX object CMakeFiles/pubPointCloud.dir/src/pubPointCloud.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ziye01/C++/ros_ws/devel/.private/pub_sensors/lib/pub_sensors/pubPointCloud[0m
+[100%] Built target pubPointCloud
