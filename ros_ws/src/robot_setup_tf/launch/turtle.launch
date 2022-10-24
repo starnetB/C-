@@ -12,4 +12,4 @@
     <!--最后这一部分，加载接受哦cmd_vel,加载速度-,控制等-->
     <!--cmd_vel-->
 </launch>
-<!--以上navigation stack的基本条件-->
+<!--以上navigation stack的基本条件，控制和导航，定位全部包含于此-->
